@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Splurty</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -64,7 +65,7 @@
 
     <br class="clear" />
 
-     <div class="container">
+     <div class="container1">
         <% if flash[:error].present? %>
           <div class="col-10 offset-1 alert alert-danger">
            <%= flash[:error].html_safe %>
